@@ -42,6 +42,7 @@ pipeline {
     }
 
     stage('Docker Build and Publish') {
+      agent any
       when {
         branch 'master'
       }
