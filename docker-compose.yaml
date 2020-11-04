@@ -1,0 +1,7 @@
+version: "2.2"
+
+services:
+  sysfoo:
+    image: sirahul033/sysfoo:latest
+    ports:
+      - 8888:8080
